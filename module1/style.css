@@ -1,0 +1,138 @@
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+._container {
+  min-width: 1120px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 0 15vw;
+}
+
+._ibg {
+  position: relative;
+}
+
+._ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+._block-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 110%;
+  color: var(--blue);
+}
+
+._block-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--grey);
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+.page {
+
+}
+
+.page__main-block {
+
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*-------------HEADER---------------------------------------------------------------------*/
+
+.header {
+  width: 100%;
+  z-index: 50;
+}
+
+.header__container {
+  min-height: 97px;
+  display: flex;
+  align-items: end;
+}
+
+.header__logo {
+  margin-right: 121px;
+}
+
+.header__logo--image {
+}
+
+.header__menu {
+}
+
+.menu {
+  padding: 5px 0;
+}
+
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu__item {
+}
+
+.menu__item:not(:last-child) {
+  margin: 0 40px 0 0;
+}
+
+.menu__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--grey);
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*-------------MINE BLOCK-----------------------------------------------------------------*/
+
+.main-block {
+  position: relative;
+}
+
+.main-block__container {
+  padding-top: 143px;
+
+}
+
+.main-block__body {
+  position: relative;
+  min-width: 645px;
+
+}
+
+.main-block__title {
+  width: 645px;
+}
+
+.main-block__text {
+  margin-top: 50px;
+  width: 380px;
+}
+
+.main-block__cover {
+  position: absolute;
+  top: 239px;
+  left: 603px;
+}
+
