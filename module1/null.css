@@ -20,13 +20,13 @@ html,body{
 	font-size: 100%;
 	line-height: 1;
 	font-size: 14px;
-  color: #141527;
+  color: #4B5D68;
   font-weight: 400;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
   font-family: 'Ubuntu';
-  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%) no-repeat;
 }
 input,button,textarea{font-family:inherit;}
 
@@ -50,4 +50,5 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   --purple: #9C69E2;
   --pink: #F063B8;
   --green: #68C9BA;
+  --m-top: 50px;
 }
