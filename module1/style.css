@@ -358,12 +358,11 @@
 /*-------------FEATURES--------------------------------------------------------------------*/
 
 .features {
-  margin-top: 150px;
+  margin-top: 9.38vw;
   
 }
 
 .features__container {
-  
 }
 
 .features__header {
@@ -373,7 +372,6 @@
 }
 
 .features__title {
-
 }
 
 .features__text {
@@ -381,7 +379,7 @@
 }
 
 .features__body {
-  margin-top: 100px;
+  margin-top: 6.25vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 45px;
@@ -390,6 +388,7 @@
 
 .features__card {
   width: 33.19vw;
+  height: 22.38vw;
   position: relative;
 }
 
@@ -398,11 +397,10 @@
 
 .card__container {
   display: flex;
-
 }
 
 .card__item {
-  margin: 73px 23.23px 73px 0;
+  margin: 4.56vw 1.44vw 0 0;
   width: 14.50vw;
   height: auto;
 }
@@ -411,19 +409,29 @@
   width: 13.75vw;
 }
 
+.card__body--container{
+}
+
+.card__background{
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 0 5.25vw;
+  width: 27.63vw;
+}
+
 .card__title {
   margin-top: var(--m-top);
 }
 
 
 .card__text {
-  margin-top: 20px;
+  margin-top: 1.25vw;
 }
 
 .card__button {
   margin-top: 20px;
   position: absolute;
-  bottom: 33px;
+  bottom: 2.06vw;
 }
 
 .card ._btn {
@@ -431,4 +439,69 @@
 }
 
 .card__button--item {
+  width: 1.25vw;
+  margin-left: 1.25vw;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px){  
+  
+  .features__title {
+    font-size: calc((100vw - 320px)/(600 - 320) * (16 - 12) + 12px);
+  }
+  
+  .features__text {
+    font-size: calc((100vw - 320px)/(600 - 320) * (11 - 7.5) + 7.5px);
+  }
+
+  .features__header{
+    width: 50vw;
+  }
+
+  .features__body {
+    display: block;
+  }
+  .features__card {
+    width: 60vw;
+    height: 35vw;
+    margin: 25px auto;
+  }
+
+  .card__background{
+    width: 45vw;
+    height: 35vw;
+    margin-left: 56px;
+  }
+  .card__item {
+    margin: 7.56vw 2.44vw 0 0;
+    width: 26vw;
+    height: auto;
+  }
+
+  .card__container{
+    width: 50vw;
+    height: 30vw;
+  }
+
+  .card__body {
+    width: 25vw;
+    min-width: 110px;
+  }
+
+  .card__text {
+    font-size: calc((100vw - 320px)/(600 - 320) * (10 - 6.5) + 6.5px);
+  }
+
+  .card__title {
+    font-size: calc((100vw - 320px)/(600 - 320) * (18 - 12) + 12px);
+  }
+
+  .card__button--item {
+    width: 2.25vw;
+    margin-left: 2.25vw;
+  }
+
+  .card ._btn {
+    font-size: calc((100vw - 320px)/(600 - 320) * (10 - 6) + 6px);
+    bottom: 2.56vw;;
+  }
 }
