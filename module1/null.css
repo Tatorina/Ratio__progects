@@ -50,5 +50,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   --purple: #9C69E2;
   --pink: #F063B8;
   --green: #68C9BA;
-  --m-top: 50px;
+  --m-top: 3.13vw;
+  --block-m: 9.38vw;
 }
