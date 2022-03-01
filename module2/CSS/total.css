@@ -1,0 +1,28 @@
+._container {
+  min-width: 600px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+._ibg {
+  position: relative;
+}
+
+._btn {
+  display: block;
+  background: #bbada0;
+  padding: 15px 25px;
+  font-size: 25px;
+  line-height: 47px;
+  font-weight: bold;
+  border-radius: 3px;
+  color: white;
+  margin-top: 8px;
+  text-align: center;
+}
+
+._box {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
