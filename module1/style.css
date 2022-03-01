@@ -504,10 +504,11 @@
 .slider__container--gradient{
   z-index: 5;
   position: absolute;
-  left: 45vw;
+  left: 47vw;
   background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
-  width: 50vw;
-  height: 19.7vw;
+  width: 40vw;
+  height: 21.9vw;
+  border-radius: 1.25vw;
 }
 
 .slider__list {
@@ -649,7 +650,7 @@
     left: 65vw;
     background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
     width: 40vw;
-    height: 24vw;
+    height: 26.3vw;
   }
 
   .column {
